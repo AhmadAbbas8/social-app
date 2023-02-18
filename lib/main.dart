@@ -15,6 +15,7 @@ import 'modules/login_screen/login_screen.dart';
 Future<void> firebaseMessageBackgroundHandler(RemoteMessage message) async {
   print(message.data.toString());
   showFlutterToast(msg: 'firebaseMessageBackgroundHandler');
+  print('object');
 }
 
 void main() async {
